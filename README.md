@@ -1,6 +1,6 @@
 # Indian Banking Transactions Analysis – Excel Dashboard
 
-<img width="1868" height="657" alt="Indian_Banking_data_Dashboard" src="https://github.com/user-attachments/assets/042d9b09-162d-46c8-9ee1-272a4b1e7cba" />
+<img width="1868" height="657" alt="Indian_Banking_data_Dashboard" src="https://github.com/ShenbagaArunK/banking-transactions-analysis-excel/blob/main/Indian_Banking_data_Dashboard.png" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
