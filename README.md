@@ -1,150 +1,71 @@
-# Indian Banking Transactions Analysis – Excel Dashboard
+# Indian Banking Transactions Analysis
 
-<img width="1868" height="657" alt="Indian_Banking_data_Dashboard" src="https://github.com/ShenbagaArunK/banking-transactions-analysis-excel/blob/main/Indian_Banking_data_Dashboard.png" />
+> Where the money moves, where it fails, and where fraud hides — across regions, branches, and payment modes.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+An interactive Excel dashboard analyzing Indian banking transaction data to surface regional performance, digital payment adoption, fraud concentration, and transaction success rates. Built with Pivot Tables, Pivot Charts, and slicers for live drill-down by year, month, city, region, and transaction type.
 
-## Project Overview
+---
 
+![Indian Banking Dashboard](Indian_Banking_data_Dashboard.png)
 
-This project analyzes Indian banking transaction data using Microsoft Excel to identify regional trends, fraud patterns, transaction behavior, and payment insights.
+---
 
-The dashboard provides interactive filtering by:
+## 📌 What This Project Does
 
-* Year
+Banking transaction logs are dense and high-volume — patterns in fraud, regional growth, and payment behavior stay buried until they're modeled. This dashboard turns raw transaction records into an operations-ready view that bank management can filter and act on.
 
-* Month
+**Interactive filters:** Year · Month · City · Region · Transaction Type
 
-* City
+---
 
-* Region
+## 📊 Dashboard Breakdown
 
-* Transaction Type
+**Regional Transaction Volume** — Compares transaction counts across regions to flag high-performing zones.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Monthly Trend by Region** — Tracks transaction amount over time to expose seasonal patterns.
 
-## Dataset
+**Payment Mode Distribution** — Cash, Credit Card, Debit Card, Net Banking, UPI — digital adoption at a glance.
 
-File: Indian_Banking_data.xlsx
+**Transaction Type Analysis** — Cheque, Deposit, Online Transfer, Withdrawal.
 
-Records: Banking transactions across multiple regions and branches
+**Fraud Pattern by Branch** — Isolates branches with elevated fraud flags for risk monitoring.
 
-Fields include:
+**Transaction Status Breakdown** — Completed, Failed, Pending, Reversed.
 
-* Transaction ID
+---
 
-* Transaction Amount
+## 💡 Key Insights
 
-* Region
+- **North region** leads in transaction volume
+- **Online transfers** dominate by transaction amount
+- **UPI and Debit Card** are the leading digital payment methods
+- Majority of transactions complete successfully — a healthy success rate
+- Fraud cases are **concentrated in specific branches**, not spread evenly — a targeted risk signal
 
-* Branch
+---
 
-* Payment Mode
+## 🎯 Business Use Case
 
-* Transaction Type
+Built to help bank management track branch performance, flag fraud-prone branches, monitor digital payment adoption, and analyze regional growth trends.
 
-* Fraud Flag
+---
 
-* Status
+## 🛠 Stack
 
-* Date
+`Microsoft Excel` `Pivot Tables` `Pivot Charts` `Slicers` `Data Cleaning`
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-## Dashboard Features
+## 🗂 Repository Structure
 
-#### 1. Regional Transaction Volume
+```
+Indian_Banking_data.xlsx              → Full workbook (data + pivots + dashboard)
+Indian_Banking_data_Dashboard.png     → Dashboard screenshot
+```
 
-  * Comparison of transaction counts across regions
+---
 
-  * Identifies high-performing zones
+## 📬 Connect
 
-#### 2. Monthly Trend by Region
-
-  * Tracks transaction amount trend over months
-
-  * Helps detect seasonal patterns
-
-#### 3. Payment Mode Distribution
-
-  * Cash
-
-  * Credit Card
-
-  * Debit Card
-
-  * Net Banking
-
-  * UPI
-
-#### 4. Transaction Type Analysis
-
-  * Cheque
-
-  * Deposit
-
-  * Online Transfer
-
-  * Withdrawal
-
-#### 5. Fraud Pattern by Branch
-
-  * Identifies branches with higher fraud flags
-
-  * Useful for risk monitoring
-
-#### 6. Transaction Status Breakdown
-
-  * Completed
-
-  * Failed
-
-  * Pending
-
-  * Reversed
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Tools Used
-
-* Microsoft Excel
-
-* Pivot Tables
-
-* Pivot Charts
-
-* Slicers
-
-* Data Cleaning
-
-* Aggregation Functions
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Key Insights
-
-* North region shows highest transaction volume.
-
-* Online transfers dominate transaction amount.
-
-* UPI and Debit Card are major digital payment methods.
-
-* Majority transactions are completed successfully.
-
-* Fraud cases concentrated in specific branches.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Business Use Case
-
-* This dashboard can help:
-
-* Bank management track performance
-
-* Identify fraud-prone branches
-
-* Monitor digital payment adoption
-
-* Analyze regional growth trends
-
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shenbaga-arun/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat&logo=todoist&logoColor=white)](https://shenbagaarunk.github.io/)
